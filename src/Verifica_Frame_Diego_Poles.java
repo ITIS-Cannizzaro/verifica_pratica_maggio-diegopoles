@@ -60,3 +60,7 @@ public class Verifica_Frame_Diego_Poles {
 }
 
 }
+/*la classe Verifica_Frame_Diego_Poles non implementa l'interfaccia ActionListener, quindi, i tre metodi (Aggiungi(), Visualizza() e Cancella()) che usano l'oggetto ActionEvent non hanno modo di funzionare.
+ *  Inoltre, dovresti anche implementare il metodo actionPerformed() utili per l'interfaccia "ActionListener".*
+ *  Oltre questo, il codice non posiziona il numero nella maniera ordinata all'interno dell'arraylist, aggiunge solo un elemento.
+ */
